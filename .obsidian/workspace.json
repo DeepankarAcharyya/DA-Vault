@@ -4,39 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "8c4f7b6ee6bd3a9e",
+        "id": "79d07e6b99154879",
         "type": "tabs",
         "children": [
           {
-            "id": "a8831c62fa2c3acf",
+            "id": "658515d26ee62fc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Learn - Target List.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Learn - Target List"
+              "title": "Index"
             }
           },
           {
-            "id": "5b18b9a73e0fefae",
+            "id": "9aa0fbd21a5d4f9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Learn - Target List.md",
+                "file": "Internal/Design Patterns/Design Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Learn - Target List"
+              "title": "Design Patterns"
+            }
+          },
+          {
+            "id": "a6241bbfe20300a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "2c623ed3f91d8d15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "White Paper/White Paper Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "White Paper Index"
+            }
+          },
+          {
+            "id": "57d91d34becd65a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal/DB/PostgreSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PostgreSQL"
+            }
+          },
+          {
+            "id": "9b427737854ffc22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal/OOPs concept.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OOPs concept"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Learn - Target List.md",
+                "file": "Internal/DB/PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To Learn - Target List.md",
+                "file": "Internal/DB/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -176,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Learn - Target List.md",
+                "file": "Internal/DB/PostgreSQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -203,13 +259,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "5b18b9a73e0fefae",
+  "active": "5f3a687d86be9d88",
   "lastOpenFiles": [
-    "To Learn - Target List.md",
-    "Low Level for Container & Infra Management.md",
-    "Terraform.md",
+    "White Paper/White Paper Index.md",
+    "Internal/DB/PostgreSQL.md",
+    "Internal/DB",
+    "Index.md",
+    "Internal/Design Patterns/Design Patterns.md",
+    "Internal/Design Patterns",
+    "White Paper",
+    "Internal/OOPs concept.md",
+    "Internal/Concurrency Patterns/Concurrency Patterns.md",
+    "Internal/NoSQL",
+    "Internal/IaC",
+    "Internal/Low Level for Container & Infra Management/Low Level for Container & Infra Management.md",
+    "Internal/Low Level for Container & Infra Management",
+    "Internal/Concurrency Patterns",
+    "Internal",
+    "Internal/IaC/Terraform.md",
     "create a link.md",
-    "MongoDB.md",
+    "Internal/NoSQL/MongoDB.md",
     "Welcome.md"
   ]
 }
