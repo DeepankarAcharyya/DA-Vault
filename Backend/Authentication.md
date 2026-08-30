@@ -1,3 +1,19 @@
+---
+tags:
+  - backend
+  - concept
+  - solid
+type: concept
+status: solid
+source: https://www.youtube.com/watch?v=iX8g4LqF8p8
+up:
+  - "[[Backend MOC]]"
+---
+
+# Authentication
+
+Up: [[Backend MOC]] · Related: [[Sharding]] (same statelessness argument, data layer)
+
 Source : https://www.youtube.com/watch?v=iX8g4LqF8p8
 
 Authentication : verifies that the user or service trying to access the system is who they claim to be.
@@ -74,3 +90,16 @@ OAuth2 and OIDC
 			- XML based protocol
 		- OIDC IdP
 
+---
+
+## Connections
+
+- **Stateful → stateless** is the whole arc of this note. Session auth pins a user to one server; JWT removes that. [[Sharding]] makes the identical move for data, and [[Distributed Systems MOC]] tabulates the pattern.
+- **Auth middleware is the Proxy pattern** — it sits in front of the real handler, exposes the same interface, controls access. See [[Design Patterns]].
+- **Token storage** is where most real bugs live: httpOnly cookies vs localStorage.
+
+## Open questions
+
+- [ ] JWT revocation — you can't un-issue a signed token. Blocklist? Short expiry only?
+- [ ] Where does mTLS fit for service-to-service?
+- [ ] Auth in [[GraphQL]] — one endpoint, so where do the checks go?

@@ -1,5 +1,0 @@
-- Cassandra
-- Kafka
-- Dynamo DB
----
-
