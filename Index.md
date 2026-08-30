@@ -5,3 +5,9 @@
 -  [[Design Patterns]]
 - [[OOPs concept]]
 - System Design - [[White Paper Index]]
+- Backend 
+	- [[graphQL]]
+	- [[Authentication]]
+- Backend Case Studies 
+	- [[Instagram Scaled Postgres to 2 Billion Users]]
+	- 

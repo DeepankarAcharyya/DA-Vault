@@ -22,7 +22,49 @@
             }
           },
           {
-            "id": "9aa0fbd21a5d4f9d",
+            "id": "dddb743e97b2caee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal/IaC/Terraform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terraform"
+            }
+          },
+          {
+            "id": "55205f018e30e99a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal/IaC/Section 1 - What is IaC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Section 1 - What is IaC"
+            }
+          },
+          {
+            "id": "9b427737854ffc22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal/NoSQL/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
+            }
+          },
+          {
+            "id": "507849989172b34a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,62 +75,6 @@
               },
               "icon": "lucide-file",
               "title": "Design Patterns"
-            }
-          },
-          {
-            "id": "a6241bbfe20300a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
-            }
-          },
-          {
-            "id": "2c623ed3f91d8d15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "White Paper/White Paper Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "White Paper Index"
-            }
-          },
-          {
-            "id": "57d91d34becd65a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internal/DB/PostgreSQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PostgreSQL"
-            }
-          },
-          {
-            "id": "9b427737854ffc22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internal/OOPs concept.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOPs concept"
             }
           }
         ],
@@ -154,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "851b1d1c410227fe",
@@ -170,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internal/DB/PostgreSQL.md",
+                "file": "Internal/Design Patterns/Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internal/DB/PostgreSQL.md",
+                "file": "Internal/Design Patterns/Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -232,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internal/DB/PostgreSQL.md",
+                "file": "Internal/Design Patterns/Design Patterns.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -259,26 +246,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "5f3a687d86be9d88",
+  "active": "507849989172b34a",
   "lastOpenFiles": [
+    "Internal/IaC/Section 1 - What is IaC.md",
+    "Internal/IaC/Terraform.md",
+    "Index.md",
+    "Internal/NoSQL/MongoDB.md",
     "White Paper/White Paper Index.md",
+    "Internal/Design Patterns/Design Patterns.md",
+    "Topics to prepare for the interview.md",
+    "Internal/Instagram Scaled Postgres to 2 Billion Users.md",
+    "Internal/Low Level for Container & Infra Management/Containers From Scratch - Liz Rice - GOTO 2018.md",
+    "Internal/Authentication.md",
+    "Internal/graphQL.md",
+    "Internal/Low Level for Container & Infra Management/Low Level for Container & Infra Management.md",
+    "Internal/NoSQL/MongoDB 1.md",
     "Internal/DB/PostgreSQL.md",
     "Internal/DB",
-    "Index.md",
-    "Internal/Design Patterns/Design Patterns.md",
     "Internal/Design Patterns",
     "White Paper",
     "Internal/OOPs concept.md",
     "Internal/Concurrency Patterns/Concurrency Patterns.md",
     "Internal/NoSQL",
     "Internal/IaC",
-    "Internal/Low Level for Container & Infra Management/Low Level for Container & Infra Management.md",
     "Internal/Low Level for Container & Infra Management",
     "Internal/Concurrency Patterns",
     "Internal",
-    "Internal/IaC/Terraform.md",
     "create a link.md",
-    "Internal/NoSQL/MongoDB.md",
     "Welcome.md"
   ]
 }
