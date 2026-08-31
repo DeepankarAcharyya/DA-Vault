@@ -3,7 +3,7 @@ aliases:
   - Topics to prepare for the interview
 tags:
   - moc
-  - seed
+  - growing
 type: moc
 status: growing
 up:
@@ -31,7 +31,8 @@ Your strongest existing material clusters around data at scale, so these are che
 - [[Instagram - Scaling Postgres to 2 Billion Users]] — a full system-design answer you already know. Practice telling it in 5 minutes.
 - [[Sharding]] — the concept behind that story. Asked constantly.
 - [[Distributed ID Generation]] — a classic standalone question, and you already have the full option tree.
-- [[Design Patterns]] — behavioral patterns are the gap.
+- [[Design Patterns]] — behavioral patterns now covered; drill the wrapper four.
+- [[SOLID Principles]] — named-and-explained is a common warm-up question.
 - [[PostgreSQL]] — currently empty, but it's the substrate of your best case study.
 
 ## Drill list
@@ -43,6 +44,7 @@ Your strongest existing material clusters around data at scale, so these are che
 - [ ] Kafka: partitions, consumer groups, offsets — [[Kafka]]
 - [ ] When would you *actually* pick [[MongoDB]] over [[PostgreSQL]]?
 - [ ] Adapter vs Facade vs Proxy vs Decorator — [[Design Patterns]]
+- [ ] Name all five of [[SOLID Principles]] and a violation of each
 - [ ] What is a container, in syscall terms — [[Container Internals]]
 
 ## Maps

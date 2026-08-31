@@ -12,15 +12,16 @@ Up: [[Home]]
 
 ## Notes
 
-- [[OOP Concepts]] — the foundation the design patterns assume `#seed`
-- [[Design Patterns]] — creational and structural `#growing`
+- [[OOP Concepts]] — the foundation the design patterns assume `#growing`
+- [[SOLID Principles]] — the five design rules `#growing`
+- [[Design Patterns]] — creational, structural, behavioral `#growing`
 - [[Concurrency Patterns]] — Go-flavoured `#seed`
 
 ## Dependency order
 
-[[OOP Concepts]] → [[Design Patterns]] → [[Concurrency Patterns]]
+[[OOP Concepts]] → [[SOLID Principles]] → [[Design Patterns]] → [[Concurrency Patterns]]
 
-Design patterns are mostly *applied polymorphism and composition*. Reading them before [[OOP Concepts]] is backwards.
+Design patterns are mostly *applied polymorphism and composition*. Reading them before [[OOP Concepts]] is backwards, and each SOLID principle names the pattern that enforces it.
 
 ## Where these show up
 
@@ -28,6 +29,7 @@ Design patterns are mostly *applied polymorphism and composition*. Reading them 
 - **Facade** → an SDK hiding a multi-step workflow; compare with the API-gateway idea in [[Backend MOC]]
 - **Proxy** → caching layers, [[Authentication]] middleware, service meshes
 - **Adapter** → wrapping a third-party client so your code doesn't depend on its interface
+- **Observer** → pub/sub and event streams; see [[Kafka]]
 
 ## Related maps
 
@@ -36,6 +38,6 @@ Design patterns are mostly *applied polymorphism and composition*. Reading them 
 
 ## Open questions
 
-- [ ] Behavioral patterns — Observer, Strategy, Command (not yet covered in [[Design Patterns]])
+- [ ] Chain of Responsibility — the one behavioral pattern still unwritten
 - [ ] Go concurrency: worker pool, fan-in/fan-out, pipeline, context cancellation
 - [ ] When a pattern is over-engineering

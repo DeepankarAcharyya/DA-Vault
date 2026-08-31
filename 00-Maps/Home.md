@@ -48,7 +48,6 @@ Notes currently at `#seed` — the highest-value things to fill next:
 - [[GraphQL]]
 - [[PostgreSQL]]
 - [[Concurrency Patterns]]
-- [[OOP Concepts]]
 - [[Kafka]]
 - [[Cassandra]]
 - [[DynamoDB]]
